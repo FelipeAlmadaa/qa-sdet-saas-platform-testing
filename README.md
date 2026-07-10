@@ -1,5 +1,6 @@
 # QA/SDET Portfolio — SaaS Platform Testing
 
+![CI](https://github.com/FelipeAlmadaa/qa-sdet-saas-platform-testing/actions/workflows/playwright.yml/badge.svg)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
@@ -128,13 +129,23 @@ Download the `playwright-report` artifact from any run to review results without
 
 ## 🖼️ Evidence
 
-<!-- Replace these placeholders with real captures after your first runs -->
-| Evidence | File |
-| --- | --- |
-| Terminal `list` reporter output | `docs/evidence/terminal-run.png` *(placeholder)* |
-| Playwright HTML report overview | `docs/evidence/html-report.png` *(placeholder)* |
-| Headed run — payment flow | `docs/evidence/headed-payment.gif` *(placeholder)* |
-| GitHub Actions green pipeline | `docs/evidence/ci-pipeline.png` *(placeholder)* |
+Real captures from an actual run of this suite (see [`docs/evidence/`](docs/evidence/)):
+
+**Playwright HTML report — 45/45 passed:**
+
+![Playwright HTML report](docs/evidence/html-report.png)
+
+**GitHub Actions — green pipeline on push:**
+
+![GitHub Actions pipeline](docs/evidence/ci-pipeline.png)
+
+**Application under test:**
+
+| Login | Dashboard | Billing |
+| --- | --- | --- |
+| ![Login](docs/evidence/app-login.png) | ![Dashboard](docs/evidence/app-dashboard.png) | ![Billing](docs/evidence/app-billing.png) |
+
+Full terminal output of the `list` reporter: [`docs/evidence/terminal-run.txt`](docs/evidence/terminal-run.txt)
 
 ## 🧭 How this project maps to real QA/SDET responsibilities
 
