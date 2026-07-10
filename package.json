@@ -1,0 +1,32 @@
+{
+  "name": "qa-sdet-saas-platform-testing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QA/SDET portfolio project: manual + automated testing of a simulated multi-tenant SaaS platform (onboarding, auth, payments, tenant isolation) with Playwright, TypeScript and GitHub Actions.",
+  "keywords": [
+    "qa",
+    "sdet",
+    "playwright",
+    "typescript",
+    "api-testing",
+    "e2e-testing",
+    "test-automation",
+    "saas"
+  ],
+  "scripts": {
+    "mock-server": "node mock-server/server.js",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:e2e": "playwright test --project=e2e-chromium",
+    "test:api": "playwright test --project=api",
+    "report": "playwright show-report"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0"
+  }
+}

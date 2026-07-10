@@ -1,0 +1,14 @@
+[
+  {
+    "id": "acme",
+    "name": "Acme Corp",
+    "plan": "pro",
+    "subscriptionStatus": "active"
+  },
+  {
+    "id": "globex",
+    "name": "Globex Inc",
+    "plan": "free",
+    "subscriptionStatus": "trial"
+  }
+]

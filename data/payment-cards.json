@@ -1,0 +1,27 @@
+{
+  "comment": "Simulated card numbers only. These follow the Stripe test-card convention and never touch a real payment provider.",
+  "success": {
+    "number": "4242424242424242",
+    "expiry": "12/30",
+    "cvc": "123",
+    "expectedOutcome": "payment approved, subscription activated"
+  },
+  "declined": {
+    "number": "4000000000000002",
+    "expiry": "12/30",
+    "cvc": "123",
+    "expectedOutcome": "card declined, subscription moves to past_due"
+  },
+  "timeout": {
+    "number": "4000000000000119",
+    "expiry": "12/30",
+    "cvc": "123",
+    "expectedOutcome": "gateway timeout, subscription status unchanged"
+  },
+  "invalidFormat": {
+    "number": "1234",
+    "expiry": "12/30",
+    "cvc": "123",
+    "expectedOutcome": "rejected by input validation"
+  }
+}

@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Environment / secrets (none are used, but keep the guard)
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

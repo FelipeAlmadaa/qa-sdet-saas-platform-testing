@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u-alice",
+    "fullName": "Alice Admin",
+    "email": "alice.admin@acme-test.io",
+    "password": "Acme@Admin1",
+    "role": "admin",
+    "tenantId": "acme"
+  },
+  {
+    "id": "u-bob",
+    "fullName": "Bob Member",
+    "email": "bob.member@acme-test.io",
+    "password": "Acme@Member1",
+    "role": "member",
+    "tenantId": "acme"
+  },
+  {
+    "id": "u-carol",
+    "fullName": "Carol Admin",
+    "email": "carol.admin@globex-test.io",
+    "password": "Globex@Admin1",
+    "role": "admin",
+    "tenantId": "globex"
+  }
+]
